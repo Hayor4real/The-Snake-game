@@ -1,0 +1,58 @@
+html,
+body {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  background-color: yellow;
+  margin-top: 50px;
+}
+
+#message {
+  font-size: 60px;
+  display: none;
+
+  color: black;
+  text-align: center;
+
+  position: absolute;
+  max-width: 50px;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border-radius: 100px;
+  padding: 15px 30px;
+  outline: 0;
+}
+
+button:hover,
+button:focus {
+  background-color: rgb(161, 161, 127);
+  color: whitesmoke;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: cadetblue;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.snake {
+  background-color: blueviolet;
+  position: relative;
+}
+
+.apple {
+  background-color: red;
+}
